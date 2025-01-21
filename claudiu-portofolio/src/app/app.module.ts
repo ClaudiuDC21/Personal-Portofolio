@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
-import { PortofolioComponent } from './portofolio/portofolio.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PortfolioComponent } from './features/portfolio/portfolio.component';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     PortfolioComponent
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     AppRoutingModule
   ],
   providers: [
