@@ -7,13 +7,15 @@ import { NavbarComponent } from './core/navbar/navbar.component';
 import { PortfolioComponent } from './features/portfolio/portfolio.component';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './core/footer/footer.component';
+import { LoaderComponent } from './shared/components/loader/loader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     PortfolioComponent,
-    FooterComponent
+    FooterComponent,
+    LoaderComponent
   ],
   imports: [
     CommonModule,
