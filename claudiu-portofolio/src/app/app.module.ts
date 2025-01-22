@@ -6,13 +6,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { PortfolioComponent } from './features/portfolio/portfolio.component';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { FooterComponent } from './core/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
