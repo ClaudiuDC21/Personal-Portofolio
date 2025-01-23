@@ -8,6 +8,7 @@ import { PortfolioComponent } from './features/portfolio/portfolio.component';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './core/footer/footer.component';
 import { LoaderComponent } from './shared/components/loader/loader.component';
+import { WelcomeSectionComponent } from './features/welcome-section/welcome-section.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LoaderComponent } from './shared/components/loader/loader.component';
     NavbarComponent,
     PortfolioComponent,
     FooterComponent,
-    LoaderComponent
+    LoaderComponent,
+    WelcomeSectionComponent
   ],
   imports: [
     CommonModule,
