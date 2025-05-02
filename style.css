@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(images/background.jpg); 
+  background-image: url(images/background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -28,6 +28,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .logo {
   width: 140px;
 }
@@ -76,42 +77,42 @@ nav ul i a:hover::after {
 
 /*---------about section---------*/
 
-#about{
-    padding: 80px 0;
-    color: #ababab;
+#about {
+  padding: 80px 0;
+  color: #ababab;
 }
 
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.about-col-1{
-    flex-basis: 35%;
+.about-col-1 {
+  flex-basis: 35%;
 }
 
-.about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
 }
 
-.about-col-2{
-    flex-basis: 60%;
+.about-col-2 {
+  flex-basis: 60%;
 }
 
-.sub-title{
-    font-size: 60px;
-    font-weight: 600;
-    color: #fff;
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
 }
 
-.tab-titles{
+.tab-titles {
   display: flex;
   margin: 20px 0 40px;
 }
 
-.tab-links{
+.tab-links {
   margin-right: 50px;
   font-size: 18px;
   font-weight: 500;
@@ -119,22 +120,22 @@ nav ul i a:hover::after {
   position: relative;
 }
 
-.tab-links::after{
-  content: '';
+.tab-links::after {
+  content: "";
   width: 0;
   height: 3px;
   background: #ff004f;
   position: absolute;
   left: 0;
-  bottom:-8px;
+  bottom: -8px;
   transition: 0.5s;
 }
 
-.tab-links.active-link::after{
+.tab-links.active-link::after {
   width: 50%;
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
   list-style: none;
   margin: 10px 0;
 }
@@ -144,10 +145,10 @@ nav ul i a:hover::after {
   font-size: 14px;
 }
 
-.tab-contents{
+.tab-contents {
   display: none;
 }
 
-.tab-contents.active-tab{
+.tab-contents.active-tab {
   display: block;
 }
