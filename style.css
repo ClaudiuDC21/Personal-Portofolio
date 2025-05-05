@@ -1,6 +1,7 @@
 :root {
   --primary-color: #6795dc;
   --background-color: #080808;
+  --services-background-color: #262626;
   --text-color: #ffffff;
   --muted-text-color: #ababab;
   --highlight-text-color: #2c79eb;
@@ -174,7 +175,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div{
-  background: #262626;
+  background: var(--services-background-color);
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
@@ -195,13 +196,13 @@ nav ul li a:hover::after {
 
 .services-list div a{
   text-decoration: none;
-  color: #fff;
+  color: var(--text-color);
   font-size: 12px;
   margin-top: 20px;
   display: inline-block
 }
 
 .services-list div:hover{
-  background: #ff004f;
+  background: var(--primary-color);
   transform: translateY(-10px);
 }
