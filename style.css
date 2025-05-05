@@ -206,3 +206,8 @@ nav ul li a:hover::after {
   background: var(--primary-color);
   transform: translateY(-10px);
 }
+
+/*------------porfolio-----------*/
+#portfolio{
+  padding: 50px 0;
+}
