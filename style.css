@@ -291,3 +291,12 @@ nav ul li a:hover::after {
 .btn:hover{
   background: var(--primary-color);
 }
+
+/*------------------contact-----------------*/
+.contact-left{
+  flex-basis: 35%;
+}
+
+.contact-right{
+  flex-basis: 60%;
+}
