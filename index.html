@@ -17,7 +17,7 @@
       <div class="container">
         <nav>
           <img src="images/D.Claudiu-Logo.png" alt="Logo - D.Claudiu" class="logo" />
-          <ul>
+          <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -249,6 +249,17 @@
       }
 
     </script>
+    <script>
+      var sideMenu  = document.getElementById("sidemenu");
 
+      function openMenu(){
+        sideMenu.style.right = "0";
+      }
+
+      function closenMenu(){
+        sideMenu.style.right = "-200px";
+      }
+
+    </script>
   </body>
 </html>
